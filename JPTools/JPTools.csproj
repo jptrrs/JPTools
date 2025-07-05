@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="PatchOperationCopy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup Condition="'$(Configuration)' == '1.1'">
     <Compile Include="PatchOperationFindModById.cs" />
